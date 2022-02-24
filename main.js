@@ -29,13 +29,14 @@ const toggleSlidebar = () => {
 //query Selector
 const lightboxEnabled = document.querySelectorAll(".lightbox-enabled");
 const lightboxContainer = document.querySelector(".lightbox-container");
-const lightboxImgage = document.querySelector(".lightbox-image");
+const lightboxImage = document.querySelector(".lightbox-image");
 
 // fucntions 
 
 // event listeners
-lightboxEnabled.forEach(item => {
+lightboxEnabled.forEach(image => {
  image.addEventListener("click", (e) => {
-     console.log(e.target);
+     lightboxContainer.classList.add('active');
+     lightboxImage.src = e.target.dataset.imagesrc;
  })
 })
