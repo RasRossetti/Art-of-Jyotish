@@ -551,6 +551,21 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin: 0;
   }
 }
+/* %% Gallery %% */
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img {
+    width: 220 px;
+    height: 150 px; 
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
 
 /*--- History ---*/
 .sub-header{
