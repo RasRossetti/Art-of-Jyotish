@@ -551,22 +551,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin: 0;
   }
 }
-/* %% Gallery %% */
+/* Gallery !*/
 .gallery{
-  margin: 10px 50px;
+    background: linear-gradient(153deg, rgba(62, 152, 254, 0.59) 0%,
+    rgba(25, 255, 16 , 0.12) 100%);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.gallery img {
-    width: 220 px;
-    height: 150 px; 
-    padding: 5px;
-    filter: grayscale(100%);
-    transition: 2s;
-}
-.gallery img:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
-}
-
 /*--- History ---*/
 .sub-header{
   height: 45vh;
