@@ -557,6 +557,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* Gallery !*/
 .headline img{
   width: 30%;
+  max-width: 300px;
 }
 .gallery{
   background: linear-gradient(153deg, rgba(62, 152, 254, 0.59) 0%,
@@ -576,6 +577,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .grid-container img{
     width: 600px;
 }
+.container-items p{
+  font-size: 20px;
+  color: #556A75;
+  text-align: center;
+  
+}
+.year p{
+  font-size: 12px;
+  color: #6E8A99;
+  text-align: center;
+  padding-top: 5px 0;
+  margin: 7px;
+}
 .lightbox-enabled {
     width: 100%;
     object-fit: cover;
@@ -586,11 +600,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     cursor: pointer;
     transform: scale(1.01);
 }
-
 .headline{
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 @media(max-width: 580px){
@@ -599,6 +612,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     align-content: center;
   place-items: right;
   align-items: right;
+  }
+  .container-items p{
+    font-size: 16px;
+  }
+  .year p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px 0;
+    margin: 2px;
   }
   .grid-container img{
     width: 300px;
