@@ -914,7 +914,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .container{
-  text-align: ;
+  
   padding:2rem 7%;
   display: grid;
   grid-template-columns: 1fr;
@@ -984,10 +984,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-size: 1.5rem;
     color:var(--black);
   }
-  .container .posts-container .post .image{
-    : 15rem;
-    
-  }
+
   .banner .content p{
     font-size: 1.2rem;
   }
@@ -1000,6 +997,4 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .container .posts-container .post .image{
     height: 12rem;
   }
-
-
 }
