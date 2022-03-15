@@ -914,6 +914,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .container{
+  text-align: ;
   padding:2rem 7%;
   display: grid;
   grid-template-columns: 1fr;
@@ -929,10 +930,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   border-radius: .5rem;
   margin-bottom: 1.5rem;
 }
+.container .posts-container .post .imagebox{
+  display: block;
+  /* center the image */
+  text-align: center;
+}
+
 
 .container .posts-container .post .image{
-  height: 40rem;
-  width:100%;
+  height: 30rem;
+  width: 100%;
+  max-width: 700px;
   border-radius: .5rem;
   object-fit: cover;
 }
@@ -976,7 +984,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-size: 1.5rem;
     color:var(--black);
   }
-  
+  .container .posts-container .post .image{
+    : 15rem;
+    
+  }
   .banner .content p{
     font-size: 1.2rem;
   }
@@ -987,7 +998,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   .container .posts-container .post .image{
-      height: 30rem;;
+    height: 12rem;
   }
 
 
