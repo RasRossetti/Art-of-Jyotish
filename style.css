@@ -4,7 +4,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
   }
   .spinner{
     width: 80px;
@@ -859,6 +860,134 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 @media (max-width:500px){
   .contact img{
-    width: 170px;
+    width: 370px;
   }
+}
+
+
+/*--- Blogggggg! ---*/
+
+:root{
+  --orange:#e67e22;
+  --black:#333;
+  --light-color:#777;
+  --border:.1rem solid rgba(0,0,0,.2);
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+
+
+
+
+
+.banner{
+  min-height: 80vh;
+  background:url(../images/banner.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  padding-top: 8rem;
+}
+
+.banner .content{
+  text-align: center;
+  background:#fff;
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+  padding:3rem;
+  max-width: 50rem;
+}
+
+.banner .content h3{
+  font-size: 4rem;
+  color:var(--black);
+  text-transform: uppercase;
+}
+
+.banner .content p{
+  font-size: 1.7rem;
+  color:var(--light-color);
+  padding:1rem 0;
+  line-height: 1.5;
+}
+
+.container{
+  padding:2rem 7%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:1.5rem;
+  background:#eee;
+}
+
+.container .posts-container .post{
+  width:100%;
+  padding:2rem;
+  background:#fff;
+  border:var(--border);
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .posts-container .post .image{
+  height: 40rem;
+  width:100%;
+  border-radius: .5rem;
+  object-fit: cover;
+}
+
+.container .posts-container .post .date{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color:var(--orange);
+}
+
+.container .posts-container .post .title{
+  padding-top: 1.5rem;
+  font-size: 2.5rem;
+  color:var(--black);
+}
+
+.container .posts-container .post .text{
+  color:var(--light-color);
+  font-size: 1.0rem;
+  line-height: 1.7;
+  padding:1rem 0;
+}
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+
+  .container{
+    padding:2rem;  
+    
+  }
+
+}
+
+@media (max-width:768px){
+  .banner .content h3{
+    font-size: 2rem;
+  }
+  
+  .banner .content p{
+    font-size: 1.2rem;
+  }
+
+  .container{
+      grid-template-columns: 1fr;
+      gap:0;
+  }
+
+  .container .posts-container .post .image{
+      height: 30rem;;
+  }
+
+
 }
