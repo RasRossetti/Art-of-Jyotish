@@ -990,6 +990,7 @@ nav img{
   font-weight: 100;
 }
 .box p{
+  text-align: center;
   text-align: justify;
   margin: 20px;
   padding-bottom: 20px;
@@ -1010,8 +1011,10 @@ nav img{
   .box{
     width: 350px;
     }
-  }
   .box p{
-    margin: -10px;
-    text-align: left;
+      margin: -10px;
+      
+      text-align: left;
+    }
   }
+ 
