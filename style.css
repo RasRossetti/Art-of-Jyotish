@@ -108,43 +108,12 @@ nav img{
   transition: 1s;
 } 
 
-  .textbox{
-    width: 80%;
-    color: white;
-    position: relative;
-    margin-top: 180px;
-    top: 60%;
-    left: 60%;
-    transform: translate(-50%,-50%);
-    text-align: left;
-    background: transparent;
-  }
-  .textbox h1{
-    position: relative;
-    font-size: 70px;
-    background: transparent;
-  }
-  .textbox p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: white;
-  }
+ 
   .hero-btn-3 img{
       width: 300px;
       margin-top: 35px;
   }
 
-  .hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid white;
-    padding: 12px 34px;
-    font-size: 19px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-  }
   .hero-btn:hover{
     border: 1px solid #154B49;
     background: #154B49;
