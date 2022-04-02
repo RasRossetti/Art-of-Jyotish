@@ -987,3 +987,72 @@ nav img{
     }
   }
  
+
+
+.box2{
+  width: 970px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box2-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.box2 h1{
+  font-size: 40px;
+  margin: 20px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box2 h5{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box2 p{
+  text-align: center;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 1px;
+  padding-bottom: 20px;
+}
+.box2 li a:hover{
+  color: #b9b9b9;
+}
+@media (max-width:900px){
+  .box2{
+    width: 450px;
+    }
+    .box2 h5{
+      font-size: 20px;
+    }
+    
+  }
+
+@media (max-width:400px){
+ .box2 h1{
+   font-size: 30px;
+ }
+ 
+  .box2{
+    width: 350px;
+    }
+  .box2 p{
+      margin: -10px;
+      
+      text-align: left;
+    }
+  }
+ 
