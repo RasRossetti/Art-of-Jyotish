@@ -325,6 +325,7 @@ nav img{
     width: 100%;
     height: 100%;
     display: block;
+    object-fit: cover;
   }
   .layer{
     background: transparent;
@@ -633,7 +634,8 @@ nav img{
 .left-txt {
   width: 60%;
   height: 600px;
-  background-image: url(/ImgGallery/GalleryBanner2.jpg);
+  background-image: url(/ImgGallery/flower.jpg);
+  /* Photo by D.y. Creation on Unsplash */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
