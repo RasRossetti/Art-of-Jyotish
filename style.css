@@ -1004,7 +1004,7 @@ nav img{
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .box2 h1{
   font-size: 40px;
@@ -1014,8 +1014,10 @@ nav img{
 }
 .box2 h5{
   font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 110px;
+  margin-left: 110px;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -1035,10 +1037,12 @@ nav img{
   .box2{
     width: 450px;
     }
-    .box2 h5{
-      font-size: 20px;
+   
+  .box2 h5{
+      font-size: 15px;
+      margin-right: 1px;
+      margin-left: 1px;
     }
-    
   }
 
 @media (max-width:400px){
