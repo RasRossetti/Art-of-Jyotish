@@ -165,7 +165,8 @@ nav img{
     }
     .sidebar2{
       position: fixed;
-      background-image: linear-gradient(rgba(30, 141, 75, 0.4),rgba(55, 190, 274, 0.8)),url(/ImgGallery/NavBarImg.jpg);
+      background-image: linear-gradient(rgba(30, 141, 75, 0.4),rgba(55, 190, 274, 0.8)),url(/ImgGallery/navbar2.jpg);
+      /* Photo by Rovshan Allahverdiyev on Unspla */
       background-position: center;
       top: 0;
       right: 0;
