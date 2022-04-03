@@ -635,7 +635,7 @@ nav img{
 .left-txt {
   width: 60%;
   height: 600px;
-  background-image: url(/ImgGallery/flower.jpg);
+  background-image: url(/ImgGallery/port.jpg);
   /* Photo by D.y. Creation on Unsplash */
   background-size: cover;
   background-position: center;
@@ -716,7 +716,7 @@ nav img{
 .left-txt2 {
   width: 60%;
   height: 600px;
-  background-image: url(/ImgGallery/GalleryBanner2.jpg);
+  background-image: url(/ImgGallery/flower.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
