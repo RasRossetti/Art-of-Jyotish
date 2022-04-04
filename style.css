@@ -636,7 +636,6 @@ nav img{
   width: 60%;
   height: 600px;
   background-image: url(/ImgGallery/port.jpg);
-  /* Photo by D.y. Creation on Unsplash */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -717,6 +716,7 @@ nav img{
   width: 60%;
   height: 600px;
   background-image: url(/ImgGallery/flower.jpg);
+   /* Photo by D.y. Creation on Unsplash */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
