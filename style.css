@@ -932,12 +932,10 @@ nav img{
 }
 
 .container{
-  
   padding:2rem 7%;
   display: grid;
   grid-template-columns: 1fr;
   gap:1.5rem;
-  background:#eee;
 }
 
 .container .posts-container .post{
